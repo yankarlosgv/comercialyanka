@@ -8,7 +8,7 @@ function App() {
 
         <nav>
           <a href="#">Inicio</a>
-          <a href="#">Portafolio</a>
+          <a href="#">Citas</a>
           <a href="#">Servicios</a>
           <a href="#">Contacto</a>
         </nav>
@@ -18,11 +18,10 @@ function App() {
         <section>
           <h2>Cada corte refleja tu personalidad."</h2>
           <p>
-            Bienvenido a mi portafolio de fotografía. Aquí encontrarás algunos
-            de mis mejores trabajos.
+            Bienvenido a mi barbería. Aquí podrás conocer algunos de mis mejores trabajos, realizados con dedicación, precisión y pasión por el estilo.
           </p>
 
-          <button>Ver Portafolio</button>
+          <button>Ver Citas</button>
         </section>
       </main>
     </>
