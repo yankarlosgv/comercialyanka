@@ -6,10 +6,14 @@ price: string;
 }
 
 const servicesData: ServiceItem[] = [
-{ id: 1, title: 'Corte Clásico / Fade', description: 'Asesoría de imagen, perfilado e hidratación.', price: '$15.00' },
-{ id: 2, title: 'Corte & Barba', description: 'Servicio completo con toalla caliente y aceites.', price: '$22.00' },
-{ id: 3, title: 'Perfilado de Barba', description: 'Delineado con navaja tradicional.', price: '$10.00' },
-{ id: 4, title: 'Diseño & Cejas', description: 'Líneas personalizadas y acabado limpio.', price: '$8.00' },
+{ id: 1, title: 'Corte Clásico / Fade', description: 'Asesoría de imagen, perfilado e hidratación.', price: '$400.00' },
+{ id: 2, title: 'Corte & Barba', description: 'Servicio completo con toalla caliente y aceites.', price: '$450.00' },
+{ id: 3, title: 'Perfilado de Barba', description: 'Delineado con navaja tradicional.', price: '$350.00' },
+{ id: 4, title: 'Diseño & Cejas', description: 'Líneas personalizadas y acabado limpio.', price: '$200.00' },
+{ id: 5, title: 'Corte Niño ', description: 'Cortes modernos y acabado limpio, pensados especialmente para niños.', price: '$350.00' },
+{ id: 6, title: 'Diseño & lineas', description: 'Agrega un toque unico y creativo a tu corte.', price: '$400.00' },
+{ id: 7, title: 'Limpieza Facial', description: 'Elimina impurezas y deja tu piel suave.', price: '$300.00' },
+{ id: 8, title: 'Servicio VIP', description: 'Una experiencia de lujo para clientes exclusivos.', price: '$500.00' },
 ];
 
 export const Services = () => {
@@ -27,5 +31,5 @@ return (
         ))}
     </div>
     </section>
- );
+);
 };

@@ -1,5 +1,6 @@
 import { Navbar } from './components/Navbar';
 import { Services } from './components/Services';
+import { Gallery } from './components/Gallery';
 import { BookingForm } from './components/BookingFrom';
 
 function App() {
@@ -10,19 +11,28 @@ function App() {
       <main>
         <section id="inicio" className="hero-section">
           <h2>CADA CORTE REFLEJA TU PERSONALIDAD.</h2>
+
           <p>
-            Bienvenido a mi barbería. Aquí podrás conocer algunos de mis
-            mejores trabajos, realizados con dedicación, precisión y pasión por el estilo.
+            Realiza tu cita de forma rápida, fácil y segura. Elige el servicio que deseas,
+            selecciona el día y la hora que más te convenga y prepárate para lucir un corte impecable.
           </p>
-          <a href="#citas" className="btn-primary">Ver Citas</a>
+
+          <a href="#citas" className="btn-primary">
+            VER CITAS
+          </a>
         </section>
 
         <Services />
+
+        <Gallery />
+
         <BookingForm />
       </main>
 
       <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} YANKA-STYLE. Todos los derechos reservados.</p>
+        <p>
+          &copy; {new Date().getFullYear()} YANKA-STYLE. Todos los derechos reservados.
+        </p>
       </footer>
     </div>
   );
