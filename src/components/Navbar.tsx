@@ -9,6 +9,7 @@ export const Navbar = () => {
                 <a href="#inicio">Inicio</a>
                 <a href="#servicios">Servicios</a>
                 <a href="#citas">Citas</a>
+                <a href="#galeria">Galeria</a>
 
 
                 <a
