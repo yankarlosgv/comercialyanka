@@ -1,8 +1,10 @@
+import logo from '../assets/logo.img.png';
+
 export const Navbar = () => {
     return (
         <header className="header">
             <div className="logo">
-                <h1>YANKA-STYLE</h1>
+                <img src={logo} alt="YANKA-STYLE" />
             </div>
 
             <nav className="nav-links">
